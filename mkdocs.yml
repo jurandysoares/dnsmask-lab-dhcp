@@ -1,0 +1,45 @@
+site_name: "ASA: Servidor DHCP com dnsmasq"
+site_author: Jurandy Soares
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+plugins:
+  - mermaid2
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - footnotes
+  - pymdownx.emoji  
+
+nav:
+  - Início: index.md
+  - material.md
+  - cenario.md
+  - ambiente.md
+  - interfaces.md
+  - pacote.md
+  - documentacao.md
+  - limpeza.md
+  - edicao.md
+  - teste.md
+  - recarga.md
+  - reinicio.md
+  - estado.md
+  - habilitacao.md
+  - clientes.md
+  - concessoes.md
+  - log.md
+  - revisao.md
