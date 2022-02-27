@@ -46,6 +46,6 @@ Vamos:
 - [Reiniciar o serviço](reinicio.md)
 - [Verificar o estado do serviço](estado.md)
 - [Habilitar o serviço para inicialização automatica](habilitacao.md)
-- [Ligar um cliente na mesma rede](cliente.md)
+- [Ligar um cliente na mesma rede](clientes.md)
 - [Analisar os logs](log.md)
 - [Revisar o que foi visto](revisao.md)
