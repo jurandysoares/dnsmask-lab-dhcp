@@ -20,15 +20,15 @@ graph LR
     liberacoes --> log
 
     %% Inserção de links nos nós
-    click iface "../interfaces/"
-    click doc "../documentacao/"
-    click pct "../pacote/"
-    click conf "../edicao/"
-    click teste "../teste/"
-    click recarregar "../recarga/"
-    click cliente "../clientes/"
-    click liberacoes "../liberacoes/"
-    click log "../log/"
+    click iface "interfaces/"
+    click doc "documentacao/"
+    click pct "pacote/"
+    click conf "edicao/"
+    click teste "teste/"
+    click recarregar "recarga/"
+    click cliente "clientes/"
+    click liberacoes "concessoes/"
+    click log "log/"
 
 
 ```
